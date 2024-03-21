@@ -1,55 +1,24 @@
-h1{
-    text-align: center;
-    color: black;
-    border-radius: 30px;
-    background-color: grey;
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 10% 0 10%;
+    background-color: #131516;
 }
-p{
-    position: relative;
-    left: 50px;
-}
-
 
 header{
     display: flex;
+    justify-content: space-between;
+    height: 55px;
+    background-color: #262a2c;
     align-items: center;
-    justify-content: space-around;
-    background-color: grey;
-    border-radius: 40px;
+    padding: 0 15px 0 15px;
 }
 
-
-
-.money{
-    width: 130px;
-    height: 50px;
+.header_elements {
+    cursor: pointer;
 }
 
-body{
-    background-color: black;
-    margin: 0;
-}
-p{
-    color: black;
-    background-color: gray;
-    border-radius: 30px;
-}
 main{
-    font-size: 20px;
-    text-align: center;
+    padding: 25px 0 0 0;
 }
-footer{
-    display: flex;
-    color: black;
-    background-color: gray;
-    border-radius: 30px;
-    height: 70px;
-}
-footer img{
-    height: 70px;
-}
-
-
-
-
-
